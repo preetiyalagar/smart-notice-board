@@ -1,4 +1,5 @@
-light = input("light color")
+light = input("light color: ")
+
 if light == "red":
     print("stop")
 elif light == "green":

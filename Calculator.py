@@ -1,11 +1,11 @@
-num1 = float(input("Enter first number: "))
+num1 = float(input("Enter first num:"))
 operator = input("Enter operator (+,-,*,/):")
-num2 = float(input("Enter second number: "))
-if operator =="+":
+num2 = float(input("Enter second num:"))
+if operator == "+":
     print("Result =", num1+num2)
-elif operator =="-":
+elif operator == "-":
     print("Result =", num1-num2)
-elif operator =="*":
+elif operator == "*":
     print("Result =", num1*num2)
 elif operator =="/":
     if num2 !=0:
@@ -13,4 +13,4 @@ elif operator =="/":
     else:
         print("Cannot divide by zero")
 else:
-    print("Invalid Operator")
+    print("Invalid operator")
